@@ -7,6 +7,7 @@ const Options = {
   memo2: { headerTitle: 'React.memo' },
   useMemo: { headerTitle: 'useMemo' },
   useCallback: { headerTitle: 'useCallback' },
+  useContext: { headerTitle: 'useContext' },
   useDouble: { headerTitle: 'useDouble' },
 };
 

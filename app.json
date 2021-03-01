@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.nc7fb863cr.React_Hooks_Demo"
     },
     "web": {
       "favicon": "./assets/icon.png"

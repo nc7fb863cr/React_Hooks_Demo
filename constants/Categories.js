@@ -35,6 +35,11 @@ const categories = [
     'page':'useCallback',
   },
   {
+    'title':'useContext',
+    'description':'the hook to manage global state',
+    'page':'useContext',
+  },
+  {
     'title':'useDouble',
     'description':'custom hook demo',
     'page':'useDouble',

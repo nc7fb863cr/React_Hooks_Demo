@@ -3,6 +3,7 @@ import Button from './Button';
 import Board from './Board';
 import MemoCard from './MemoCard';
 import MemoCard2 from './MemoCard2';
+import ThemeCard from './ThemeCard';
 
 export {
   Card,
@@ -10,4 +11,5 @@ export {
   Board,
   MemoCard,
   MemoCard2,
+  ThemeCard,
 }

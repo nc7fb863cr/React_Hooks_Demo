@@ -7,14 +7,15 @@ const Stack = createStackNavigator();
 import HomeScreen from '../screens/HomeScreen';
 import { Options } from '../constants/Constants';
 import { 
-  useState, 
-  useEffect,
-  useEffect2,
+  UseState, 
+  UseEffect,
+  UseEffect2,
   Memo,
   Memo2,
-  useMemo,
-  useCallback,
-  useDouble,
+  UseMemo,
+  UseCallback,
+  useContext,
+  UseDouble,
 } from '../screens/categories/Categories';
 
 const Navigation = () => {
@@ -22,14 +23,15 @@ const Navigation = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name='home' component={HomeScreen} options={Options.home}/>
-        <Stack.Screen name='useState' component={useState} options={Options.useState}/>
-        <Stack.Screen name='useEffect' component={useEffect} options={Options.useEffect}/>
-        <Stack.Screen name='useEffect2' component={useEffect2} options={Options.useEffect2}/>
+        <Stack.Screen name='useState' component={UseState} options={Options.useState}/>
+        <Stack.Screen name='useEffect' component={UseEffect} options={Options.useEffect}/>
+        <Stack.Screen name='useEffect2' component={UseEffect2} options={Options.useEffect2}/>
         <Stack.Screen name='memo' component={Memo} options={Options.memo}/>
         <Stack.Screen name='memo2' component={Memo2} options={Options.memo2}/>
-        <Stack.Screen name='useMemo' component={useMemo} options={Options.useMemo}/>
-        <Stack.Screen name='useCallback' component={useCallback} options={Options.useCallback}/>
-        <Stack.Screen name='useDouble' component={useDouble} options={Options.useDouble}/>
+        <Stack.Screen name='useMemo' component={UseMemo} options={Options.useMemo}/>
+        <Stack.Screen name='useCallback' component={UseCallback} options={Options.useCallback}/>
+        <Stack.Screen name='useContext' component={useContext} options={Options.useContext}/>
+        <Stack.Screen name='useDouble' component={UseDouble} options={Options.useDouble}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
